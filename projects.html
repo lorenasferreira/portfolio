@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lorena Ferreira - Portfolio — Projects</title>
+  <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="main.js" defer></script>
+</head>
+<body>
+  <header class="navbar">
+    <button class="hamburger" aria-label="Abrir menu" aria-expanded="false">
+      <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true">
+        <path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none" />
+      </svg>
+    </button>
+    <h1 class="logo"><a href="index.html">Lorena Ferreira</a></h1>
+    <ul class="nav-links">
+      <button id="themeToggle" class="theme-btn" aria-label="Change light/dark mode">
+  <svg viewBox="0 0 24 24" width="25" height="28" aria-hidden="true">
+      <path d="M21 12.79A9 9 0 1 1 11.21 3
+               a7 7 0 0 0 9.79 9.79Z"
+            fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+</button>
+      <li><a href="projects.html">Portfolio</a></li>
+      <li><a href="about-me.html">About me</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="#">More</a></li>
+    </ul>
+  </header>
+
+  <main>
+    <section class="projects-hero">
+      <h2 class="projects-title">My Latest <span>Projects</span></h2>
+    </section>
+
+    <section id="projectsRoot" class="projects-list" aria-labelledby="projects-list-title">
+      <h2 id="projects-list-title" class="sr-only">Project gallery</h2>
+    </section>
+  </main>
+  <footer class="footer">
+    <a href="https://www.linkedin.com/in/lorenasferreira/" target="_blank" aria-label="LinkedIn profile">
+      <svg width="30" height="30" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" fill="none">
+        <path
+          d="M39.5833 6.25C40.6884 6.25 41.7482 6.68899 42.5296 7.47039C43.311 8.25179 43.75 9.3116 43.75 10.4167V39.5833C43.75 40.6884 43.311 41.7482 42.5296 42.5296C41.7482 43.311 40.6884 43.75 39.5833 43.75H10.4167C9.3116 43.75 8.25179 43.311 7.47039 42.5296C6.68899 41.7482 6.25 40.6884 6.25 39.5833V10.4167C6.25 9.3116 6.68899 8.25179 7.47039 7.47039C8.25179 6.68899 9.3116 6.25 10.4167 6.25H39.5833ZM38.5417 38.5417V27.5C38.5417 25.6987 37.8261 23.9713 36.5524 22.6976C35.2787 21.4239 33.5513 20.7083 31.75 20.7083C29.9792 20.7083 27.9167 21.7917 26.9167 23.4167V21.1042H21.1042V38.5417H26.9167V28.2708C26.9167 26.6667 28.2083 25.3542 29.8125 25.3542C30.586 25.3542 31.3279 25.6615 31.8749 26.2084C32.4219 26.7554 32.7292 27.4973 32.7292 28.2708V38.5417H38.5417ZM14.3333 17.8333C15.2616 17.8333 16.1518 17.4646 16.8082 16.8082C17.4646 16.1518 17.8333 15.2616 17.8333 14.3333C17.8333 12.3958 16.2708 10.8125 14.3333 10.8125C13.3996 10.8125 12.504 11.1834 11.8437 11.8437C11.1834 12.504 10.8125 13.3996 10.8125 14.3333C10.8125 16.2708 12.3958 17.8333 14.3333 17.8333ZM17.2292 38.5417V21.1042H11.4583V38.5417H17.2292Z"
+          fill="#B3B3B3" />
+      </svg>
+    </a>
+
+    <a href="https://github.com/lorenasferreira" target="_blank" aria-label="Github Profile">
+      <svg width="30" height="30" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M25 4.16663C22.2641 4.16663 19.555 4.7055 17.0274 5.75247C14.4998 6.79944 12.2031 8.33401 10.2686 10.2686C6.36156 14.1756 4.16663 19.4746 4.16663 25C4.16663 34.2083 10.1458 42.0208 18.4166 44.7916C19.4583 44.9583 19.7916 44.3125 19.7916 43.75V40.2291C14.0208 41.4791 12.7916 37.4375 12.7916 37.4375C11.8333 35.0208 10.4791 34.375 10.4791 34.375C8.58329 33.0833 10.625 33.125 10.625 33.125C12.7083 33.2708 13.8125 35.2708 13.8125 35.2708C15.625 38.4375 18.6875 37.5 19.875 37C20.0625 35.6458 20.6041 34.7291 21.1875 34.2083C16.5625 33.6875 11.7083 31.8958 11.7083 23.9583C11.7083 21.6458 12.5 19.7916 13.8541 18.3125C13.6458 17.7916 12.9166 15.625 14.0625 12.8125C14.0625 12.8125 15.8125 12.25 19.7916 14.9375C21.4375 14.4791 23.2291 14.25 25 14.25C26.7708 14.25 28.5625 14.4791 30.2083 14.9375C34.1875 12.25 35.9375 12.8125 35.9375 12.8125C37.0833 15.625 36.3541 17.7916 36.1458 18.3125C37.5 19.7916 38.2916 21.6458 38.2916 23.9583C38.2916 31.9166 33.4166 33.6666 28.7708 34.1875C29.5208 34.8333 30.2083 36.1041 30.2083 38.0416V43.75C30.2083 44.3125 30.5416 44.9791 31.6041 44.7916C39.875 42 45.8333 34.2083 45.8333 25C45.8333 22.2641 45.2944 19.555 44.2475 17.0274C43.2005 14.4998 41.6659 12.2031 39.7314 10.2686C37.7968 8.33401 35.5002 6.79944 32.9725 5.75247C30.4449 4.7055 27.7358 4.16663 25 4.16663Z"
+          fill="#B3B3B3" />
+      </svg>
+    </a>
+  </footer>
+</body>
+</html>
