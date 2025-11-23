@@ -54,14 +54,12 @@ My first personal portfolio, built in one week, fully static and created during 
 A more advanced project inspired by Orkut, created later in my learning path.  
 This version includes modern layout structure, interactive elements in JavaScript, and a complete visual prototype designed in Figma.
 
-Figma design (Lorkut static version):  https://www.figma.com/proto/PaGAi1jXnkBzhuf716rLD6/Project-2---Portfolio?node-id=0-1&t=TqybyHaASheEhaAO-1
-
 ### Version 3.0 — Lorkut (Dynamic Version)  
 A complete rewrite with backend technologies:  
 PHP, MySQL, modular architecture, partials, a real database, a visit counter, and functional server deployment.
 
 Live dynamic version:  
-https://claravision.infinityfree.me
+https://
 
 ---
 
